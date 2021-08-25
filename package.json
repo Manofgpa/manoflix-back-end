@@ -1,0 +1,35 @@
+{
+  "name": "manoflix-back-end",
+  "description": "Gestor de filmes",
+  "version": "0.1.0",
+  "main": "index.js",
+  "devDependencies": {
+    "nodemon": "^2.0.12",
+    "sequelize-cli": "^6.2.0"
+  },
+  "scripts": {
+    "start": "nodemon app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Manofgpa/manoflix-back-end.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Manofgpa/manoflix-back-end/issues"
+  },
+  "homepage": "https://github.com/Manofgpa/manoflix-back-end#readme",
+  "type": "module",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "joi": "^17.4.2",
+    "mysql2": "^2.3.0",
+    "sequelize": "^6.6.5",
+    "swagger-jsdoc": "^6.1.0",
+    "swagger-ui-express": "^4.1.6"
+  }
+}
